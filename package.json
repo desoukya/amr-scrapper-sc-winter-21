@@ -1,0 +1,19 @@
+{
+  "name": "amr-scrapper-sc-winter-2021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bluebird": "^3.7.2",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.2",
+    "mongodb": "^4.2.2"
+  }
+}
