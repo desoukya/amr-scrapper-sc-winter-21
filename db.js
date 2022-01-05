@@ -1,6 +1,6 @@
 
    
-const { MongoClient, ObjectID } = require('mongodb');
+const { MongoClient } = require('mongodb');
 const bluebird = require('bluebird');
 
 bluebird.promisifyAll(MongoClient);
@@ -29,6 +29,5 @@ const mongoClient = async collectionName => {
 };
 
 module.exports = {
-  mongoClient,
-  ObjectID
+  mongoClient
 };
